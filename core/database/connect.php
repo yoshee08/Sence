@@ -1,9 +1,9 @@
 <?php
 $database = array();
-$database['host']     = 'localhost';
-$database['user']     = 'root';
-$database['password'] = 'NunyaOreoDad2007';
-$database['table']    = 'root';
+$database['host']     = 'I'm not telling;
+$database['user']     = 'This might be a little wrong..';
+$database['password'] = 'This is totally the password';
+$database['table']    = 'Gotchya';
 
 $connect_error = 'Sorry, there are some connection problems.';
 mysql_connect($database['host'], $database['user'], $database['password']) or die($connect_error);
